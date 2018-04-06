@@ -3,4 +3,13 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="btn1">#90a4ae</color>
+    <color name="btn2">#42a5f5</color>
+    <color name="btn3">#78909c</color>
+    <color name="btn4">#4caf50</color>
+    <color name="btn5">#546e7a</color>
+    <color name="btn6">#cfd8dc</color>
+    <color name="tinteBlanco">#fff</color>
+    <color name="dolar">#ffd54f</color>
+    <color name="stock">#00701a</color>
 </resources>

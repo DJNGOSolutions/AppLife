@@ -20,21 +20,22 @@
         android:layout_columnWeight="1"
         android:layout_row="0"
         android:layout_rowWeight="1"
-        android:background="#F22"
+        android:background="@color/btn1"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="9"
-            android:src="@drawable/ic_settings_black_24dp" />
+            android:src="@drawable/ic_perm_identity_black_48dp"
+            android:tint="@color/tinteBlanco" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="pefil" />
 
     </LinearLayout>
 
@@ -45,21 +46,22 @@
         android:layout_columnWeight="1"
         android:layout_row="1"
         android:layout_rowWeight="1"
-        android:background="#F22"
+        android:background="@color/btn2"
         android:orientation="vertical">
 
         <ImageView
+            android:tint="@color/tinteBlanco"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="9"
-            android:src="@drawable/ic_settings_black_24dp" />
+            android:src="@drawable/ic_account_circle_black_48dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="contacts" />
     </LinearLayout>
 
     <LinearLayout
@@ -69,21 +71,22 @@
         android:layout_columnWeight="1"
         android:layout_row="0"
         android:layout_rowWeight="1"
-        android:background="#F22"
+        android:background="@color/btn3"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
+            android:tint="@color/tinteBlanco"
             android:layout_height="0dp"
             android:layout_weight="9"
-            android:src="@drawable/ic_settings_black_24dp" />
+            android:src="@drawable/ic_account_balance_wallet_black_48dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="wallet" />
     </LinearLayout>
 
     <LinearLayout
@@ -93,21 +96,22 @@
         android:layout_columnWeight="1"
         android:layout_row="1"
         android:layout_rowWeight="1"
-        android:background="#F22"
+        android:background="@color/btn4"
         android:orientation="vertical">
 
         <ImageView
+            android:tint="@color/stock"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="9"
-            android:src="@drawable/ic_settings_black_24dp" />
+            android:src="@drawable/ic_trending_down_black_48dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="stock" />
     </LinearLayout>
 
     <LinearLayout
@@ -117,21 +121,22 @@
         android:layout_columnWeight="1"
         android:layout_row="1"
         android:layout_rowWeight="1"
-        android:background="#F22"
+        android:background="#eceff1"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="match_parent"
+            android:tint="@color/dolar"
             android:layout_height="0dp"
             android:layout_weight="9"
-            android:src="@drawable/ic_settings_black_24dp" />
+            android:src="@drawable/ic_monetization_on_black_48dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="payments" />
     </LinearLayout>
 
     <LinearLayout
@@ -141,20 +146,21 @@
         android:layout_columnWeight="1"
         android:layout_row="0"
         android:layout_rowWeight="1"
-        android:background="#F22"
+        android:background="@color/btn5"
         android:orientation="vertical">
 
         <ImageView
+            android:tint="@color/btn1"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="9"
-            android:src="@drawable/ic_settings_black_24dp" />
+            android:src="@drawable/ic_settings_black_48dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="2"
             android:gravity="center_horizontal"
-            android:text="TextView" />
+            android:text="settings" />
     </LinearLayout>
 </GridLayout>
