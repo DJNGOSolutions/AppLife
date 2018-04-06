@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Taller2</string>
+    <string name="btn1">Perfil</string>
+    <string name="btn2">Amigos</string>
+    <string name="btn3">Cartera</string>
+    <string name="btn4">Bolsa</string>
+    <string name="btn5">Configuración</string>
+    <string name="btn6">Pagos</string>
+</resources>
