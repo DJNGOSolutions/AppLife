@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="8dp"
     android:orientation="vertical"
+    android:padding="8dp"
     android:stretchColumns="1"
     tools:context="com.example.stargate.taller2_applife.MainActivity">
 
@@ -15,54 +15,176 @@
         android:layout_weight="1">
 
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
             android:layout_marginRight="8dp"
             android:layout_weight="1"
-            android:background="#F22"
-            android:gravity="center">
+            android:background="@color/btn1"
+            android:gravity="center"
+            android:orientation="vertical">
 
             <ImageView
+                android:layout_weight="9"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="0dp"
                 android:layout_alignParentTop="true"
-                android:src="@drawable/discord" />
+                android:tint="@color/tinteBlanco"
+                android:src="@drawable/ic_perm_identity_black_48dp" />
 
             <TextView
+                android:layout_weight="1.5"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_height="0dp"
+                android:text="@string/btn1" />
 
         </LinearLayout>
 
-        <RelativeLayout
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
-            android:background="#F2A"
+            android:background="@color/btn2"
             android:gravity="center">
 
             <ImageView
-                android:id="@+id/setting"
+                android:layout_weight="9"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="0dp"
                 android:layout_alignParentTop="true"
-                android:src="@drawable/discord" />
+                android:tint="@color/tinteBlanco"
+                android:src="@drawable/ic_account_circle_black_48dp" />
 
             <TextView
+                android:layout_weight="1.5"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="TextView" />
+                android:layout_height="0dp"
+                android:text="@string/btn2" />
 
-
-        </RelativeLayout>
+        </LinearLayout>
 
     </TableRow>
 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/btn3"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_weight="9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:tint="@color/tinteBlanco"
+                android:src="@drawable/ic_account_balance_wallet_black_48dp" />
+
+            <TextView
+                android:layout_weight="1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/btn3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/btn4"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_weight="9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:tint="@color/stock"
+                android:src="@drawable/ic_trending_down_black_48dp" />
+
+            <TextView
+                android:layout_weight="1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/btn4" />
+
+        </LinearLayout>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:background="@color/btn5"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_weight="9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:tint="@color/btn1"
+                android:src="@drawable/ic_settings_black_48dp" />
+
+            <TextView
+                android:layout_weight="1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/btn5" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1"
+            android:background="@color/btn6"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_weight="9"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_alignParentTop="true"
+                android:tint="@color/dolar"
+                android:src="@drawable/ic_monetization_on_black_48dp" />
+
+            <TextView
+                android:layout_weight="1.5"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:text="@string/btn6" />
+
+        </LinearLayout>
+
+    </TableRow>
 </TableLayout>
